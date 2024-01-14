@@ -51,7 +51,7 @@ function iconNavBarHeader(event) {
     //
 
     // Check if the click occurred outside the navigation bar
-    if (event.target !== imgIconNavBar && !navBar.contains(event.target)) {
+    if (event.target !== imgIconNavBar) {
 
         imgIconNavBar.src = 'img/navicon.svg';
 
