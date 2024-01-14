@@ -1,0 +1,143 @@
+@media screen and (0px <= width <= 450px) {
+
+    header{
+        height: 60px;
+    }
+
+    .header-left {
+        margin: 5px 0 0 10px;
+
+        img {
+            width: 40px;
+            filter: none;
+        }
+    }
+
+    .header-center{
+        display: none;
+    }
+
+    .header-location {
+        a {
+            :hover{
+                filter: none;
+            }
+        }
+    }
+
+    .header-right{
+        margin-right: 0;
+    }
+
+    .header-iconnav{
+        img{
+            width: 60px;
+        }
+    }
+
+
+    #asideBottom{
+        width: 100px;
+        height: 60px;
+        bottom: -50px;
+
+        span p{
+            top: -25px;
+            right: 17px;
+        }
+
+
+        span p{
+            font-size: 1.3rem;
+        }
+    }
+
+
+    #iconconnectnav{
+
+        a img{
+            width: 40px;
+        }
+    }
+
+    nav{
+        a{
+            p{
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    #section-two-log{
+        width: 85%;
+        height: 77%;
+        left: 7%;
+    }
+
+
+};
+
+
+@media screen and (451px <= width <= 850px) {
+    header{
+        height: 70px;
+    }
+
+    .header-left {
+        margin: 5px 0 0 15px;
+
+        a{
+            :hover{
+                filter: drop-shadow(50px 0 3px #ff0000);
+                transition: .5s;
+            }
+        }
+
+        img {
+            width: 50px;
+            filter: drop-shadow(50px 0 3px #ff000070);
+        }
+    }
+
+    .header-center{
+        width: 250px;
+    }
+
+    .header-location {
+        a {
+            button {
+                font-size: 1.5rem;
+            }
+            :hover{
+                filter: drop-shadow(0 0 3px #ff0000);
+            }
+        }
+    }
+
+    .header-right{
+        margin-right: 0;
+    }
+
+    .header-iconnav{
+        img{
+            width: 70px;
+        }
+    }
+    nav{
+        a{
+            p{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    #section-two-log{
+        width: 85%;
+        height: 77%;
+        left: 7%;
+    }
+
+
+};
+
+
