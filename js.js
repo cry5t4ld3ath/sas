@@ -13,9 +13,9 @@ function iconNavBarHeader(event) {
     const tagA = navBar.querySelectorAll('a');
     
     //change icon header navbar
-    if (imgIconNavBar.src.match('/img/navicon.svg')) {
+    if (imgIconNavBar.src.match('img/navicon.svg')) {
 
-        imgIconNavBar.src = '/img/naviconclose.svg';
+        imgIconNavBar.src = 'img/naviconclose.svg';
 
         mediaQueries[0].matches
         ? (navBar.style.height = '200px'
@@ -43,7 +43,7 @@ function iconNavBarHeader(event) {
 
         navBar.style.transition = '1s';
     } else {
-        imgIconNavBar.src = '/img/navicon.svg';
+        imgIconNavBar.src = 'img/navicon.svg';
         
         navBar.style.height = '0px';
         navBar.style.transition = '1s';
@@ -53,7 +53,7 @@ function iconNavBarHeader(event) {
     // Check if the click occurred outside the navigation bar
     if (event.target !== imgIconNavBar && !navBar.contains(event.target)) {
 
-        imgIconNavBar.src = '/img/navicon.svg';
+        imgIconNavBar.src = 'img/navicon.svg';
 
         navBar.style.height = '0px';
         navBar.style.transition = '1s';
