@@ -14,7 +14,18 @@
     }
 
     .header-center{
-        display: none;
+        width: 200px;
+    }
+
+    .header-location {
+        a {
+            button {
+                font-size: 1.3rem;
+            }
+            :hover{
+                filter: drop-shadow(0 0 3px #ff0000);
+            }
+        }
     }
 
     .header-location {

@@ -159,7 +159,13 @@ nav a p {
     filter: none;
   }
   .header-center {
-    display: none;
+    width: 200px;
+  }
+  .header-location a button {
+    font-size: 1.3rem;
+  }
+  .header-location a :hover {
+    filter: drop-shadow(0 0 3px #ff0000);
   }
   .header-location a :hover {
     filter: none;
