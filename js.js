@@ -41,12 +41,12 @@ function iconNavBarHeader(event) {
         }
         ));
 
-        navBar.style.transition = '1s';
+        navBar.style.transition = '.5s';
     } else {
         imgIconNavBar.src = 'img/navicon.svg';
         
         navBar.style.height = '0px';
-        navBar.style.transition = '1s';
+        navBar.style.transition = '.5s';
     }
     //
 
@@ -56,7 +56,7 @@ function iconNavBarHeader(event) {
         imgIconNavBar.src = 'img/navicon.svg';
 
         navBar.style.height = '0px';
-        navBar.style.transition = '1s';
+        navBar.style.transition = '.5s';
     }
 };
 
@@ -76,7 +76,7 @@ function bottomConnectSide (event) {
             ? (itemConnect.style.bottom = '-70px')
             : (itemConnect.style.bottom = '-70px')
             
-            itemConnect.style.transition = '1s';
+            itemConnect.style.transition = '.5s';
         }else {
 
             itemConnect.style.bottom = '0px';
@@ -91,7 +91,7 @@ function bottomConnectSide (event) {
         ? (itemConnect.style.bottom = '-70px')
         : (itemConnect.style.bottom = '-70px')
 
-        itemConnect.style.transition = '1s';
+        itemConnect.style.transition = '.5s';
     }
 
 };
