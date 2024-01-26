@@ -41,7 +41,9 @@ header {
   margin: 5px 0 0 10px;
 }
 .header-left a {
+  width: -moz-fit-content;
   width: fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 .header-left a :hover {
@@ -67,7 +69,9 @@ header {
   justify-content: space-around;
 }
 .header-location a {
+  width: -moz-fit-content;
   width: fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   border-radius: 50px;
   text-decoration: none;
@@ -99,7 +103,9 @@ header {
   height: auto;
 }
 .header-iconnav button {
+  width: -moz-fit-content;
   width: fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   background-color: transparent;
   cursor: pointer;
@@ -257,6 +263,15 @@ section {
   position: relative;
   top: 13%;
   left: 2.4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ttt {
+  font-size: 3rem;
+  font-family: "punk";
+  color: #ff0000;
 }
 
 #section-two {
